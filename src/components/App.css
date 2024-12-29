@@ -1,0 +1,90 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 3rem; /* Custom header height */
+  font-family: 'Poppins', sans-serif; /* Use Tailwind's font-family utilities if desired */
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Custom Classes (You may remove many if Tailwind handles them) */
+
+.section {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    margin-bottom :5rem;
+    min-height: 90vh;
+    background-color: aquamarine;
+}
+
+.section-title {
+  position: relative;
+  font-size: 1.25rem; 
+  color: #3b82f6;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.section-title::after {
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: #3b82f6; /* Tailwind blue */
+}
+
+
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  border-bottom: 0.5px solid #9AA6B2;
+  padding-bottom: 20px;
+}
+
+/* ===== MEDIA QUERIES=====*/
+/* Adjust Tailwind breakpoints if needed, but Tailwind should already cover most of this. */
+@media screen and (min-width: 576px) {
+  .home__social {
+    flex-direction: row;
+    align-self: flex-end;
+  }
+}
