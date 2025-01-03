@@ -18,11 +18,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full z-30 bg-gray-900 text-white shadow">
+    <nav className="fixed w-full z-30 bg-white-900 text-white shadow">
       <div className="container mx-auto px-12">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-lg font-bold">My Portfolio</div>
+          <div className="text-slate-800 font-sans text-base font-semibold" style={{ fontFamily: "Poppins, sans-serif" }}>
+            Sneha C Shaji
+          </div>
+
           {/* Hamburger Icon for Small Screens */}
           <div className="md:hidden">
             <button
@@ -41,35 +44,40 @@ const Navbar = () => {
             <a
               href="#home"
               onClick={(e) => handleScroll(e, "#home")}
-              className="hover:text-gray-400"
+              className="text-slate-800 font-sans text-base font-semibold"
+              style={{ fontFamily: "Poppins, sans-serif" }}
             >
               Home
             </a>
             <a
               href="#about"
               onClick={(e) => handleScroll(e, "#about")}
-              className="hover:text-gray-400"
+              className="text-slate-800 font-sans text-base font-semibold"
+              style={{ fontFamily: "Poppins, sans-serif" }}
             >
               About
             </a>
             <a
               href="#skills"
               onClick={(e) => handleScroll(e, "#skills")}
-              className="hover:text-gray-400"
+              className="text-slate-800 font-sans text-base font-semibold"
+              style={{ fontFamily: "Poppins, sans-serif" }}
             >
               Skills
             </a>
             <a
               href="#work"
               onClick={(e) => handleScroll(e, "#work")}
-              className="hover:text-gray-400"
+              className="text-slate-800 font-sans text-base font-semibold"
+              style={{ fontFamily: "Poppins, sans-serif" }}
             >
               Work
             </a>
             <a
               href="#contact"
               onClick={(e) => handleScroll(e, "#contact")}
-              className="hover:text-gray-400"
+              className="text-slate-800 font-sans text-base font-semibold"
+              style={{ fontFamily: "Poppins, sans-serif" }}
             >
               Contact
             </a>
