@@ -85,39 +85,39 @@ const Navbar = () => {
         </div>
         {/* Dropdown Menu for Small Screens */}
         {isOpen && (
-          <div className="md:hidden mt-2 space-y-2">
+          <div className="md:hidden mt-2 space-y-2 bg-slate-300">
             <a
               href="#home"
               onClick={(e) => handleScroll(e, "#home")}
-              className="block text-gray-600 hover:text-gray-400"
+              className="block text-gray-600 hover:text-gray-400 pl-6"
             >
               Home
             </a>
             <a
               href="#about"
               onClick={(e) => handleScroll(e, "#about")}
-              className="block text-gray-600 hover:text-gray-400"
+              className="block text-gray-600 hover:text-gray-400 pl-6"
             >
               About
             </a>
             <a
               href="#skills"
               onClick={(e) => handleScroll(e, "#skills")}
-              className="block text-gray-600 hover:text-gray-400"
+              className="block text-gray-600 hover:text-gray-400 pl-6"
             >
               Skills
             </a>
             <a
               href="#work"
               onClick={(e) => handleScroll(e, "#work")}
-              className="block text-gray-600 hover:text-gray-400"
+              className="block text-gray-600 hover:text-gray-400 pl-6"
             >
               Work
             </a>
             <a
               href="#contact"
               onClick={(e) => handleScroll(e, "#contact")}
-              className="block text-gray-600 hover:text-gray-400"
+              className="block text-gray-600 hover:text-gray-400 pl-6"
             >
               Contact
             </a>
