@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
 
           {/* Hamburger Icon for Small Screens */}
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button
               onClick={handleToggle}
               className="text-gray-600 focus:outline-none"

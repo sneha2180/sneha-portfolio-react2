@@ -6,12 +6,12 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen flex items-center justify-center"
+      className="h-screen flex items-center justify-center pt-64 sm:pt-16"
     >
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center" style={{ fontFamily: "Poppins, sans-serif" }}>
         {/* Left Side */}
         <div className="text-center md:text-left md:w-1/2 space-y-4">
-          <h1 className="text-4xl md:text-6xl font-bold text-slate-800">
+          <h1 className="text-4xl md:text-6xl font-bold text-slate-800 ">
             Navigating
           </h1>
           <h1 className="text-4xl md:text-6xl font-bold text-slate-500">
