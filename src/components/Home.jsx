@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen flex items-center justify-center pt-64 sm:pt-16"
+      className="h-screen flex items-center justify-center pt-16 md:pt-20 lg:pt-24"
     >
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center" style={{ fontFamily: "Poppins, sans-serif" }}>
         {/* Left Side */}
@@ -55,8 +55,7 @@ const Home = () => {
 
         {/* Right Side */}
         <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center">
-          <div className="w-100 h-100 bg-slate-800 relative overflow-hidden" style={{
-            fontFamily: "Poppins, sans-serif",
+          <div className="w-64 h-64 bg-slate-400 relative overflow-hidden" style={{
             borderTopLeftRadius: '50%',
             borderTopRightRadius: '30%',
             borderBottomLeftRadius: '40%',

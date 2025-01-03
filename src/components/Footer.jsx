@@ -20,7 +20,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/sneha-c-shaji/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-500 hover:text-gray-400"
+              className="text-slate-400 hover:text-gray-400"
             >
               <FaLinkedin className="text-2xl" />
             </a>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
           {/* Copyright Text */}
-          <div className="text-slate-900 text-right">
+          <div className="text-slate-400 text-right">
             &copy; {new Date().getFullYear()} Sneha C Shaji. All Rights Reserved.
           </div>
         </div>
