@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen flex items-center justify-center pt-16 md:pt-20 lg:pt-24"
+      className="h-screen flex items-center justify-center pt-24 md:pt-20 lg:pt-24"
     >
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center" style={{ fontFamily: "Poppins, sans-serif" }}>
         {/* Left Side */}
