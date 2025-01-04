@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa"; // Import icons from react-icons
+import React, { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -17,17 +19,44 @@ const Navbar = () => {
     }
   };
 
+  useEffect(() => {
+    const handleNavbarVisibility = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        setIsVisible(false); // Hide navbar when scrolling down
+      } else {
+        setIsVisible(true); // Show navbar when scrolling up
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleNavbarVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", handleNavbarVisibility);
+    };
+  }, [lastScrollY]);
+
   return (
-    <nav className="fixed w-full z-30 bg-white-900 text-white shadow">
+    <nav
+      className={`fixed w-full z-30 bg-white-900 text-white shadow transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="container mx-auto px-12">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-slate-800 font-sans text-base font-semibold" style={{ fontFamily: "Poppins, sans-serif" }}>
+          <div
+            className="text-slate-800 font-sans text-base font-semibold"
+            style={{ fontFamily: "Poppins, sans-serif" }}
+          >
             Sneha C Shaji
           </div>
 
           {/* Hamburger Icon for Small Screens */}
-          <div className="md:hidden ">
+          <div className="md:hidden">
             <button
               onClick={handleToggle}
               className="text-gray-600 focus:outline-none"
