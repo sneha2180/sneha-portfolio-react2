@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+"use client"
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -10,7 +12,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleScroll = (e, target) => {
+  const handleScroll = (e:any, target:any) => {
     e.preventDefault();
     const section = document.querySelector(target);
     if (section) {
@@ -41,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-30 bg-white-900 text-white shadow transition-transform duration-300 ${
+      className={`fixed w-full z-50 bg-white text-white shadow transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >

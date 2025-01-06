@@ -58,7 +58,7 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
-              rows="4"
+              rows={4}
               required
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600"
             ></textarea>
