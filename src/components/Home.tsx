@@ -1,14 +1,15 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa"; // Importing social icons
-import profilePic from "../assets/images/perfil.png"
+import Image from "next/image"
+
 
 const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen flex items-center justify-center pt-40 md:pt-20 lg:pt-24"
+      className="h-fit lg:h-screen flex items-center justify-center"
     >
-      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center" style={{ fontFamily: "Poppins, sans-serif" }}>
+      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center py-[80px]" style={{ fontFamily: "Poppins, sans-serif" }}>
         {/* Left Side */}
         <div className="text-center md:text-left md:w-1/2 space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold text-slate-800 ">
@@ -61,10 +62,11 @@ const Home = () => {
             borderBottomLeftRadius: '40%',
             borderBottomRightRadius: '60%',
           }}>
-            <img
-              src={profilePic}
+            <Image
+              src={"/assets/images/perfil.png"}
               alt="Description"
               className="w-full h-full object-cover"
+              fill
             />
           </div>
         </div>
