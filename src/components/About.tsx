@@ -20,8 +20,8 @@ const About = () => {
           <p className="text-slate-600 text-lg">
             I am Sneha C Shaji, a passionate individual with a background in Computer Science and Engineering. 
             I have experience in sales, marketing automation, and project coordination, 
-            and I'm always looking for ways to combine technology with business. 
-            I'm excited to explore new opportunities and grow in the tech industry.
+            and I&apos;m always looking for ways to combine technology with business. 
+            I&apos;m excited to explore new opportunities and grow in the tech industry.
           </p>
         </div>
 

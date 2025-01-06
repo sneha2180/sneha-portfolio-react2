@@ -56,7 +56,7 @@ const Home = () => {
 
         {/* Right Side */}
         <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center">
-          <div className="w-64 h-64 bg-slate-400 relative overflow-hidden" style={{
+          <div className="w-72 h-72 bg-slate-400 relative overflow-hidden" style={{
             borderTopLeftRadius: '50%',
             borderTopRightRadius: '30%',
             borderBottomLeftRadius: '40%',

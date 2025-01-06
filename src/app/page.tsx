@@ -16,7 +16,6 @@ export default function App() {
       <Work />
       <Contact />
       <Footer />
-
     </main>
   );
 }
