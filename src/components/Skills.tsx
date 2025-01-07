@@ -38,7 +38,7 @@ const Skills = () => {
             {/* Tile for L */}
             <div className="flex flex-col justify-center items-center p-6 border-2 border-slate-300 rounded-lg shadow-lg shadow-indigo-300/50">
               <span className="text-4xl font-semibold text-slate-700">L</span>
-              <img src="/assets/images/Sn.png" alt="LinkedIn" className="mt-4 h-9"/>
+              <img src="/assets/images/SN.png" alt="LinkedIn" className="mt-4 h-9"/>
             </div>
 
             {/* Tile for E */}
