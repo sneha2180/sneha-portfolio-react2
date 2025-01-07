@@ -97,12 +97,12 @@ const Navbar = () => {
               Skills
             </a>
             <a
-              href="#work"
-              onClick={(e) => handleScroll(e, "#work")}
+              href="#Certifications"
+              onClick={(e) => handleScroll(e, "#Certifications")}
               className="text-slate-800 font-sans text-base font-semibold"
               style={{ fontFamily: "Poppins, sans-serif" }}
             >
-              Work
+              Certifications
             </a>
             <a
               href="#contact"
@@ -139,11 +139,11 @@ const Navbar = () => {
               Skills
             </a>
             <a
-              href="#work"
-              onClick={(e) => handleScroll(e, "#work")}
+              href="#Certifications"
+              onClick={(e) => handleScroll(e, "#Certifications")}
               className="block text-gray-600 hover:text-gray-400 pl-6"
             >
-              Work
+              Certifications
             </a>
             <a
               href="#contact"
