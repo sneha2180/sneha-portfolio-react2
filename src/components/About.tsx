@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-slate-50 flex flex-col items-center justify-center">
-      {/* Section Heading */}
+    <section id="about" className=" bg-slate-50 flex flex-col items-center justify-center">
+      {/* Section Heading
       <div className="container mx-auto px-4 max-w-2xl mb-8">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-800 text-center">
           About
         </h2>
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="container mx-auto px-4 flex flex-col md:flex-row">
