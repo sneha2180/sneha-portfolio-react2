@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className=" bg-slate-50 flex flex-col items-center justify-center">
+    <section id="about" className="py-20 bg-slate-50 flex flex-col items-center justify-center">
       {/* Section Heading
       <div className="container mx-auto px-4 max-w-2xl mb-8">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-800 text-center">
@@ -18,7 +18,7 @@ const About = () => {
             I am Sneha C Shaji
           </h2>
           <p className="text-slate-600 text-lg">
-            I am Sneha C Shaji, a passionate individual with a background in Computer Science and Engineering. 
+            A passionate individual with a background in Computer Science and Engineering. 
             I have experience in sales, marketing automation, and project coordination, 
             and I&apos;m always looking for ways to combine technology with business. 
             I&apos;m excited to explore new opportunities and grow in the tech industry.

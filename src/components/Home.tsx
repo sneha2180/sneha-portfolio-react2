@@ -42,14 +42,14 @@ const Home = () => {
               className="text-slate-400 hover:text-slate-800"
               aria-label="LinkedIn"
             >
-              <FaLinkedin className="text-2xl" />
+              <FaLinkedin className="text-4xl" />
             </a>
             <a
               href="https://github.com/sneha2180"
               className="text-slate-400 hover:text-slate-800"
               aria-label="GitHub"
             >
-              <FaGithub className="text-2xl" />
+              <FaGithub className="text-4xl" />
             </a>
           </div>
         </div>
