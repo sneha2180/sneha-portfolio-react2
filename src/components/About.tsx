@@ -35,7 +35,7 @@ const About = () => {
               being among the Top 5 in the Persona Pageant by 
             <a href="https://www.quest-global.com/" className="text-slate-400 hover:text-blue-800"> Quest Global </a> 
             and being recognized as the Best Women Starter by 
-            <a href="https://www.herkey.com/" className="text-slate-400 hover:text-blue-800"> HerKey </a>.
+            <a href="https://www.herkey.com/" className="text-slate-400 hover:text-blue-800"> HerKey</a>.
             </p>
             <p className="text-slate-600 text-base">
               Now, I am embarking on a new chapter with 
