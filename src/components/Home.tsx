@@ -21,7 +21,7 @@ const Home = () => {
           <h5 className="font-bold text-lg">
             Exploring business development strategies in SaaS.
           </h5>
-          <p className="text-lg text-slate-600">
+          <p className="text-base text-slate-600">
             With a solid foundation in B2B sales, engagement automation, and account management, 
             a goal-oriented approach is applied to exploring innovative technological solutions for marketing and business challenges.
             Leveraging tools such as LinkedIn Sales Navigator, HubSpot, Salesforce, and AI enables driving lead generation, optimizing campaigns, 
