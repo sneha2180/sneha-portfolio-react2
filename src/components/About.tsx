@@ -17,7 +17,7 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800">
             I am Sneha C Shaji
           </h2>
-          <p className="text-slate-600 text-lg">
+          <p className="text-slate-600 text-base">
             A young woman pursuing a sales career in the IT servicing industry. 
             With a tech-graduate background, I began my journey as a 
             <a href="https://mvp.microsoft.com/studentambassadors" className="text-slate-400 hover:text-blue-800"> Microsoft Student Ambassador</a>, earning the 
@@ -29,7 +29,7 @@ const About = () => {
             <a href="https://mulearn.org/" className="text-slate-400 hover:text-blue-800"> GTech MuLearn </a>
             played a pivotal role in securing my internship, which later turned into a permanent role at 
             <a href="https://www.softnotions.com/" className="text-slate-400 hover:text-blue-800"> Softnotions Technologies</a> (associated with GTech).</p>
-            <p className="text-slate-600 text-lg">
+            <p className="text-slate-600 text-base">
               In my role as a Business Development Executive (BDE), 
               I had the honor of achieving two significant milestones: 
               being among the Top 5 in the Persona Pageant by 
@@ -37,7 +37,7 @@ const About = () => {
             and being recognized as the Best Women Starter by 
             <a href="https://www.herkey.com/" className="text-slate-400 hover:text-blue-800"> HerKey </a>.
             </p>
-            <p className="text-slate-600 text-lg">
+            <p className="text-slate-600 text-base">
               Now, I am embarking on a new chapter with 
               <a href="https://www.webdura.in/" className="text-slate-400 hover:text-blue-800"> Webdura Technologies </a>, 
               with my MBA in Business Intelligence, driven by my passion for exploring the endless possibilities of technology in automating sales.
