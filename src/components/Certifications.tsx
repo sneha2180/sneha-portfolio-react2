@@ -39,7 +39,15 @@ const Certifications = () => {
       id="Certifications"
       className="py-16 flex flex-col items-center"
     >
-      {/* Grid Layout */}
+      
+      {/* Section Heading */}
+      <div className="container mx-auto px-4 max-w-2xl mb-8">
+        <h2 className="text-2xl md:text-4xl font-bold text-slate-800 text-center">
+          Certifications
+        </h2>
+      </div>
+
+      {/* Grid Layout*/}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {certifications.map((cert, index) => (
           <div
@@ -51,7 +59,7 @@ const Certifications = () => {
             </h3>
             <p className="text-sm text-gray-600 mb-4">{cert.description}</p>
             <a href={cert.link} target="_blank" rel="noopener noreferrer">
-              <button className="bg-slate-500 text-white px-4 py-2 rounded shadow hover:bg-white hover:text-slate-900 hover:border">
+              <button className="bg-slate-600 text-white px-4 py-2 rounded shadow hover:bg-slate-800 hover:text-white hover:border">
                 View Certification
               </button>
             </a>
