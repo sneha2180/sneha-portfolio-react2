@@ -42,7 +42,7 @@ const Certifications = () => {
       
       {/* Section Heading */}
       <div className="container mx-auto px-4 max-w-2xl mb-8">
-        <h2 className="text-2xl md:text-4xl font-bold text-slate-800 text-center">
+        <h2 className="text-xl md:text-2xl font-bold text-slate-800 text-center">
           Certifications
         </h2>
       </div>
