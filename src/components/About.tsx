@@ -40,7 +40,7 @@ const About = () => {
             <p className="text-slate-600 text-base">
               Now, I am embarking on a new chapter with 
               <a href="https://www.webdura.in/" className="text-slate-400 hover:text-blue-800"> Webdura Technologies </a>, 
-              with my MBA in Business Intelligence, driven by my passion for exploring the endless possibilities of technology in automating sales.
+              driven by my passion for exploring the endless possibilities of technology in automating sales.
           </p>
         </div>
 
@@ -71,18 +71,6 @@ const About = () => {
               <p className="text-slate-500 text-sm">Nov 2023 - Nov 2024</p>
               <p className="text-slate-600 mt-2">
                 Softnotions Technologies, Thiruvananthapuram
-              </p>
-            </div>
-
-            {/* Timeline Item 3 */}
-            <div className="ml-6 mb-10">
-              <div className="absolute w-4 h-4 bg-slate-800 rounded-full -left-2.5"></div>
-              <h4 className="text-lg font-semibold text-slate-800">
-              Master of Business Administration
-              </h4>
-              <p className="text-slate-500 text-sm">2025 - Present</p>
-              <p className="text-slate-600 mt-2">
-              JAIN Online University
               </p>
             </div>
 
